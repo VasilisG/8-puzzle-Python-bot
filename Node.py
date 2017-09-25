@@ -74,28 +74,7 @@ class Node:
                     return tuple([i,j])
         return None
 
-
-    # Method that converts a matrix to tuple.
-    def toTupleMatrix(self):
-        
-        newMatrix = []
-        for i in range(len(self.matrix)):
-            newMatrix.append(tuple(self.matrix[i]))
-
-        return tuple(newMatrix)
-
-
     
-    # Method that converts a matrix to list.
-    def toListMatrix(self):
-
-        newMatrix = []
-        for i in range(len(self.matrix)):
-            newMatrix.append(list(self.matrix[i]))
-
-        return list(newMatrix)
-
-
     # Function that prints the elements of a 2D matrix.
     def showMatrix(self):
 
