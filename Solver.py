@@ -27,18 +27,6 @@ def isNodeInList(node, nodeList):
 
     return False
 
-
-def distance(node1, node2):
-
-    x1 = node1.getCoords()[0]
-    y1 = node1.getCoords()[1]
-
-    x2 = node2.getCoords()[0]
-    y2 = node2.getCoords()[1]
-
-    return int(math.fabs(x2-x1) + math.fabs(y2-y1)) * 10
-
-
 def reconstructPath(cameFrom, currentNode):
 
     totalPath = []
