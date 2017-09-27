@@ -1,3 +1,10 @@
+''' 
+NOTE: This bot was developed in a 1920x1200 resolution. In order to make it work for your resolution, take a 
+      screenshot of the game area, open it with an image processing software, place the cursor in the upper 
+      left corner of the game area and mark the coordinates. Then, come back on this file and change the 
+      variables 'paddingX' and 'paddingY' with the new values.
+'''
+
 try:
     from PIL import Image, ImageGrab, ImageChops
 except ImportError:
