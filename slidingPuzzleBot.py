@@ -45,7 +45,8 @@ tileDistance = 100
 bbox = (paddingX, paddingY, paddingX + screenWidth, paddingY + screenHeight)
 
 # Image tile filenames.
-filenames = ("tileOne.png", "tileTwo.png", "tileThree.png", "tileFour.png", "tileFive.png", "tileSix.png", "tileSeven.png", "tileEight.png")
+filenames = ("tileOne.png", "tileTwo.png", "tileThree.png", "tileFour.png", "tileFive.png", 
+             "tileSix.png", "tileSeven.png", "tileEight.png")
 
 
 # Function that takes a screenshot the part of the screen defined by the coordinates in bbox.
@@ -147,17 +148,7 @@ def getFinalMatrix(dimX, dimY):
 
     return finalMatrix
    
-
-# Function that checks if a tile contains a specific number.
-def containsNumber(imageTile, number):
-
-    for n in numbers:
-        pixel = tileImage.getpixel(n)
-        if pixel == BLACK:
-            return False
-    return True
-
-
+      
 # Function that gets the image of the puzzle board and returns the board as a 2D array.
 def getImageTiles(image, dimX, dimY):
 
