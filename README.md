@@ -16,5 +16,5 @@ The bot was created using version 3.4.2 of Python.
 
 The specific Python bot uses:
 
-1) The Python Imaging Library (PIL) for screenshots, color conversions and image comparisons.
-2) The "pyautogui" module in order to simulate mouse clicks.
+1) The [Python Imaging Library (PIL)](https://pillow.readthedocs.io/en/5.2.x/) for screenshots, color conversions and image comparisons.
+2) The [pyautogui](https://pyautogui.readthedocs.io/en/latest/) module in order to simulate mouse clicks.
